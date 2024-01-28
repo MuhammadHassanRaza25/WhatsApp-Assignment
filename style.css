@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+aside{
+    width: 30%;
+    height:641px;
+    background-color:#0c1317;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.parent #icon{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#icon i:hover{
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    color: #00a884;
+}
+.parent #dp{
+    display:flex;
+}
+.parent #dp h2{
+    margin-top: 13px;
+    color: white;
+}
+.parent #dp img{
+    width: 60px;
+}
+input{
+    width:86%;
+    background-image: url(images/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    background-position-x:320px ;
+    margin-left:25px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    background-color:#0c1317;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    color: white;
+}
+input:focus{
+    outline: none;
+    border-bottom-color:#00a884;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+input:focus::placeholder{
+    color: #00a884;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    padding-left: 8px;
+}
+#archived{
+    color: white;
+    display: flex;
+    margin-top: 9%;
+    gap: 30px;
+    margin-left: 7%;
+    font-size: 11px;
+    align-items: center;
+}
+#archived i{
+    font-size: 21px;
+}
+.chats{
+   display: flex;
+   align-items: center;
+   margin-top: 22px;
+   margin-left: 10px;
+   cursor: pointer;
+}
+.chats h2{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+}
+.chats h4{
+    color:#00a884;
+    font-weight: 200;
+}
+.chats img{
+    width: 60px;
+}
+.chatsparent{
+    overflow-y: scroll;
+    height:71%;
+}
+.chatsparent::-webkit-scrollbar{
+    display: none;
+}
+.sidechat{
+    width:70%;
+    height:641px;
+    position: absolute;
+    left:30%;
+    top: 0px;
+    background-image: url(images/background.jpg);
+}
+.sidedivnav{    
+    display: flex;
+    align-items: center;
+}
+.sidedivnav img{    
+         width: 55px;
+         margin-top:1.5% ;
+         margin-left:2% ;
+}
+.sidedivnav h2{
+    color: white;
+    font-weight: 300;
+    margin-left:1%;
+    margin-top:1.5%;
+    font-size: 21px;
+}
+.doicon{
+    position: absolute;
+    left: 82%;
+    top: 5%;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.doicon i:hover{
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    color: #00a884;
+}
+.chatting1 img{
+    position: absolute;
+    width: 15%;
+    top: 15%;
+    left: 83%;
+}
+.chatting2 img{
+    position: absolute;
+    width: 15%;
+    top: 30%;
+    left: 32%;
+}
+.chatting3 img{
+    position: absolute;
+    width:26%;
+    top: 47%;
+    left: 73%;
+}
+.chatting4 img{
+    position: absolute;
+    width: 15%;
+    top: 71%;
+    left: 32%;
+}
+#INPUT{
+    background-color:#0c1317;
+    position: absolute;
+    width:70%;
+    top:92.9%;
+    left:30%;
+}
+#INPUT input{
+    width: 80%;
+    margin-left:12%;
+    background-image: none;
+    font-size: 20px;
+}
+#INPUT input::placeholder{
+   font-size: 20px;
+}
+#baricon{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top:95.4%;
+    left: 32%;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#baricon i:hover{
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    color: #00a884;
+}
+#send{
+    position: absolute;
+    top:96%;
+    left: 96.5%;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#send:hover{
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    color: #00a884;
+}
